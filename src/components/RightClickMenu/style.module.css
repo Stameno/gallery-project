@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    max-width: 120px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    background-color: #2a2f33;
+    color: #fff;
+}
+
+.menuItem {
+    display: flex;
+    width: auto;
+    padding: 3px 5px;
+    transition: 0.3s;
+}
